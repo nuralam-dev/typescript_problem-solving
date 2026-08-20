@@ -3,7 +3,7 @@ const getStockStatus = (stock: number): string => {
     return "Out of Stock";
   } else if (stock >= 1 && stock <= 5) {
     return "Almost Sold Out";
-  } else if (stock>=6 && stock<=20) {
+  } else if (stock >= 6 && stock <= 20) {
     return "Available";
   }
   return "In Stock";
